@@ -46,6 +46,15 @@ import javax.accessibility.*;
  * @author      Arthur van Hoff
  * @author      Chris Warth
  * @since       JDK1.0
+
+
+ * applet是一个被设计成不自己独立运行的小程序，它通常嵌入到其它程序中
+ * <p>
+ * <code>Applet</code> 类必须是什么的超类呢？必须是嵌入到网页中或者是Java applet
+ * 查看器查看的applet的超类。
+ * <code>Applet</code> 类在applets和它们所处环境之间提供了一个标准接口
+ *
+ * @translator  sugz
  */
 public class Applet extends Panel {
 
@@ -61,6 +70,12 @@ public class Applet extends Panel {
      * returns true.
      * @see java.awt.GraphicsEnvironment#isHeadless
      * @since 1.4
+     *
+     * 构建(new)一个新的applet
+     * <p>
+     * 笔记：
+     *
+     * @translator  sugz
      */
     public Applet() throws HeadlessException {
         if (GraphicsEnvironment.isHeadless()) {
