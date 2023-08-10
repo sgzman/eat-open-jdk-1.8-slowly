@@ -43,6 +43,9 @@ import sun.util.calendar.ZoneInfo;
 /**
  * The class <code>Date</code> represents a specific instant
  * in time, with millisecond precision.
+ *
+ * <code>Date</code>类代表一个特定的时间实例，并且有毫秒的精度
+ *
  * <p>
  * Prior to JDK&nbsp;1.1, the class <code>Date</code> had two additional
  * functions.  It allowed the interpretation of dates as year, month, day, hour,
