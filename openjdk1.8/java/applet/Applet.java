@@ -73,7 +73,8 @@ public class Applet extends Panel {
      *
      * 构建(new)一个新的applet
      * <p>
-     * 笔记：
+     * 笔记：<code>java.applet.Applet</code>中的许多方法都会在applet完全构建后被调用；
+     * applet应该在<code>java.applet.Applet</code>的高构造器中避免调用方法
      *
      * @translator  sugz
      */
